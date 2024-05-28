@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Edit Booking</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+</head>
+<body>
+    <h1>Edit Booking</h1>
+    <form action="{{ url_for('save_booking') }}" method="post">
+        <input type="hidden" name="booking_id" value="{{ booking.id }}">
+        <label for="name" class="name">Name:</label>
+        <input type="text" id="name" name="name" value="{{ booking.name }}"><br><br>
+        <label for="service" class="service">Service:</label>
+        <input type="text" id="service" name="service" value="{{ booking.service }}"><br><br>
+        <button class="save-btn" type="submit">Save</button>
+    </form>
+</body>
+</html>

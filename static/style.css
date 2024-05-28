@@ -1,0 +1,67 @@
+.name, .service, .log-Uname, .log-password, .user_name, .password{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+ /*
+.booking-menu{
+    font-size: 50px;
+    border: 1px;
+    border-radius: 0.5px;
+} */
+
+
+table, th, td  {
+    border: 1px solid black;
+    border-collapse: collapse;
+    height: 35px; width: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+
+}
+.book-btn,
+.edit-btn,
+.save-btn,
+.login-btn,
+.reg-btn {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    height: 40px;
+    width: 70px;
+    
+}
+.book-btn:hover,
+.edit-btn:hover,
+.save-btn:hover {
+    background-color: darkgreen;
+
+}
+
+
+/* Define styles for delete button */
+.delete-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.delete-btn:hover {
+    background-color: darkred;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+.label{
+    font-weight: bold;
+    font-size: 30px;
+}
